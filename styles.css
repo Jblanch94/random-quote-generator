@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.card {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card div {
+  margin: 0.8rem;
+}
+
+.card p {
+  font-size: 1.2rem;
+  color: grey;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+}
+
+#quote-btn {
+  background: white;
+  color: steelblue;
+  border-radius: 2px;
+  padding: 0.25rem;
+}
+
+#quote-btn:hover {
+  cursor: pointer;
+  background: steelblue;
+  color: white;
+}
+
+#quote-btn:active {
+  transform: translateY(2px);
+}
